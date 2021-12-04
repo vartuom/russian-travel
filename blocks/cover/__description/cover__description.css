@@ -1,0 +1,33 @@
+.cover__description {
+  color: white;
+  z-index: 1;
+  text-align: center;
+  pointer-events: none;
+}
+/*
+.cover__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+}
+
+.cover__description:before {
+  content: "";
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cover__description:hover::before {
+  opacity: 0.8;
+}
+*/

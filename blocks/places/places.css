@@ -4,3 +4,23 @@
   justify-content: center;
   gap: 50px;
 }
+
+@media (min-width: 768px) {
+  .places {
+    gap: 73px;
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    gap: 80px;
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    padding: 0 148px;
+  }
+}

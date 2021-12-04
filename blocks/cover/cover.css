@@ -1,0 +1,26 @@
+.cover {
+  background-image: url(../../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    width: calc(100% - 96px);
+  }
+}
+
+.cover:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-top: calc(1280 / 2048 * 100%);
+}
+

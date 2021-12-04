@@ -1,0 +1,13 @@
+.cover__background {
+  background: url(../../../images/cover-trains.jpg);
+  padding-top: calc(1280 / 2048 * 100%);
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+/*
+.cover__background {
+  width: 100%;
+  display: block;
+}
