@@ -1,22 +1,17 @@
-.intro {
+.common-padded-block {
   padding: 0 16px;
 }
 
 @media (min-width: 768px) {
-  .intro {
+  .common-padded-block {
     padding: 0 24px;
   }
 }
 
 @media (min-width: 1024px) {
-  .intro {
+  .common-padded-block {
     padding: 0 48px;
-    max-width: 690px;
   }
 }
 
-@media (min-width: 1280px) {
-  .intro {
-    padding: 0 148px;
-  }
-}
+

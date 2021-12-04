@@ -1,8 +1,9 @@
-.place__website-url {
-  display: inline-block;
+.place-website__link {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  margin: 12px 16px 0 16px;
+  margin-top: 12px;
+  text-decoration: none;
+  color: currentColor;
   border-bottom: 2px white solid;
 }

@@ -1,6 +1,14 @@
-.intro__title{
+.intro__title {
   font-size: 32px;
-  line-height: 1.1;
+  line-height: 109%;
   font-weight: 900;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .lead__title {
+    font-size: 54px;
+    line-height: 107%;
+    font-weight: 900;
+  }
 }

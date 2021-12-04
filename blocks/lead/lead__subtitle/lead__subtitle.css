@@ -2,6 +2,26 @@
   font-size: 16px;
   line-height: 1.25;
   font-weight: 400;
-  margin: 16px 16px 40px 16px;
+  margin: 16px 0 40px 0;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 32px 64px 56px 64px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__subtitle {
+    margin: 32px 192px 56px 192px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__subtitle {
+    margin: 32px 320px 64px 320px;
+  }
 }
