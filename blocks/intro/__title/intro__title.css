@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 768px) {
-  .lead__title {
+  .intro__title {
     font-size: 54px;
     line-height: 107%;
     font-weight: 900;

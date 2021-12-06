@@ -1,8 +1,12 @@
 .cover__description {
   color: white;
   z-index: 1;
-  text-align: center;
   pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 /*
 .cover__description {

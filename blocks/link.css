@@ -1,9 +1,12 @@
 .link {
   transition: opacity 0.1s linear;
   text-decoration: none;
-  color: white;
 }
 
 .link:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+}
+
+.footer__column-link .link {
+  color: inherit;
 }

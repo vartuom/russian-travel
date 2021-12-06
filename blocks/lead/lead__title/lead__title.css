@@ -4,16 +4,21 @@
   font-weight: 900;
   margin: 0 16px;
   text-align: center;
+  max-width: 288px;
 }
 
 @media (min-width: 768px) {
   .lead__title {
+    /*
     margin: 0 24px;
+    */
     font-size: 96px;
     line-height: 104%;
+    max-width: 720px;
   }
 }
 
+/*
 @media (min-width: 1024px) {
   .lead__title {
     margin: 0 152px;
@@ -25,3 +30,4 @@
     margin: 0 280px;
   }
 }
+*\
