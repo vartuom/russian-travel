@@ -1,0 +1,12 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 112%;
+  }
+}
