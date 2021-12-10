@@ -5,6 +5,18 @@
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .content {
+    gap: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    gap: 92px;
+  }
+}
+
 @media (min-width: 1280px) {
   .content {
     padding-top: 56px;
