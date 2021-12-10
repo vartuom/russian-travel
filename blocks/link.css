@@ -4,9 +4,5 @@
 }
 
 .link:hover {
-  opacity: 0.6;
-}
-
-.footer__column-link .link {
-  color: inherit;
+  opacity: 0.8;
 }
