@@ -4,7 +4,6 @@
   font-weight: 900;
   margin: 0;
   max-width: 250px;
-  /* margin: 0 auto; */
 }
 
 @media (min-width: 768px) {
@@ -15,17 +14,3 @@
   }
 }
 
-
-/*
-.cover__title {
-  position: absolute;
-  font-size: 32px;
-  line-height: 109%;
-  font-weight: 900;
-  margin: 0;
-  z-index: 2;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  margin: 16.5% 16px 16px 8%;
-}

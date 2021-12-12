@@ -12,20 +12,12 @@
     font-size: 30px;
     line-height: 1.2;
     margin: 32px 0 56px 0;
-    /* margin: 32px 64px 56px 64px; */
     max-width: 640px;
   }
 }
 
-/* @media (min-width: 1024px) {
-  .lead__subtitle {
-    margin: 32px 192px 56px 192px;
-  }
-} */
-
 @media (min-width: 1280px) {
   .lead__subtitle {
     margin: 32px 0 64px 0;
-    /* margin: 32px 320px 64px 320px; */
   }
 }
